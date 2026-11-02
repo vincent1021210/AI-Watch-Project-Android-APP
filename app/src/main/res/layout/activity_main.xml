@@ -20,6 +20,15 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/steps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="今日步數 --"
+            android:textColor="@color/text"
+            android:textSize="20sp" />
+
+        <TextView
             android:id="@+id/status"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -41,6 +50,54 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="斷線" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="訊息"
+            android:textColor="@color/text"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="App 收到手機通知後，送到手錶顯示。"
+            android:textColor="@color/muted"
+            android:textSize="14sp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/fwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="送到手錶"
+            android:textColor="@color/text"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/allowNotice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="允許讀取通知" />
+
+        <Button
+            android:id="@+id/testMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="送一則測試訊息" />
+
+        <TextView
+            android:id="@+id/inbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="還沒有訊息"
+            android:textColor="@color/text"
+            android:textSize="15sp" />
 
         <TextView
             android:layout_width="wrap_content"
