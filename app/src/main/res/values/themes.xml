@@ -1,8 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Theme.XiaoYiWatch" parent="Theme.Material3.Dark.NoActionBar">
         <item name="android:statusBarColor">@color/bg</item>
         <item name="android:navigationBarColor">@color/bg</item>
         <item name="android:windowBackground">@color/bg</item>
         <item name="colorPrimary">@color/cyan</item>
+        <item name="colorOnPrimary">@color/bg</item>
+        <item name="colorSurface">@color/card</item>
+        <item name="colorOnSurface">@color/text</item>
+        <item name="colorOutline">@color/cyan</item>
+    </style>
+
+    <style name="Widget.XiaoYi.Button" parent="Widget.Material3.Button">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textColor">@color/bg</item>
+        <item name="backgroundTint">@color/cyan</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <style name="Widget.XiaoYi.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textColor">@color/cyan</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="strokeColor">@color/cyan</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <style name="Widget.XiaoYi.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textColor">@color/muted</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="cornerRadius">12dp</item>
     </style>
 </resources>
