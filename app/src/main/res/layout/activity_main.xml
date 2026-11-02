@@ -76,9 +76,8 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/scan"
             style="@style/Widget.XiaoYi.Button.Pill"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
             android:layout_marginTop="28dp"
             android:text="掃描並連線" />
 
@@ -101,14 +100,14 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:gravity="center_vertical"
-                android:minHeight="56dp"
+                android:minHeight="72dp"
                 android:orientation="horizontal"
                 android:paddingStart="4dp"
                 android:paddingEnd="4dp">
 
                 <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
                     android:contentDescription=""
                     android:src="@drawable/ic_row_notice" />
 
@@ -119,7 +118,7 @@
                     android:layout_weight="1"
                     android:text="通知設定"
                     android:textColor="@color/text"
-                    android:textSize="16sp" />
+                    android:textSize="18sp" />
 
                 <ImageView
                     android:layout_width="24dp"
@@ -136,14 +135,14 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:gravity="center_vertical"
-                android:minHeight="56dp"
+                android:minHeight="72dp"
                 android:orientation="horizontal"
                 android:paddingStart="4dp"
                 android:paddingEnd="4dp">
 
                 <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
                     android:contentDescription=""
                     android:src="@drawable/ic_row_control" />
 
@@ -154,7 +153,7 @@
                     android:layout_weight="1"
                     android:text="手錶控制"
                     android:textColor="@color/text"
-                    android:textSize="16sp" />
+                    android:textSize="18sp" />
 
                 <ImageView
                     android:layout_width="24dp"
