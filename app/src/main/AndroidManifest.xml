@@ -28,6 +28,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".NoticeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ControlActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <service
             android:name=".WatchService"
             android:exported="false"
